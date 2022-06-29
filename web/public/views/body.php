@@ -71,10 +71,10 @@ function RegComp() {
 </script>
 <template x-if="selPage == 'home'">
     <section class="section" x-data="RegComp()">
-        <div class="card" >
+        <div class="card">
             <header class="card-header" @click="open = !open">
                 <p class="card-header-title">
-                    Click here to add new stock to the watch list
+                    Click here to add a new wine to your collection
                 </p>
                 <button class="card-header-icon" aria-label="more options">
                     <span class="icon">
@@ -136,13 +136,12 @@ function RegComp() {
                 <table class="table is-striped">
                     <thead>
                         <tr>
-                            <th><abbr title="Ticker">Ticker</abbr></th>
-                            <th><abbr title="FirstClose">FirstClose</abbr></th>
-                            <th><abbr title="StopLoss">StopLoss</abbr></th>
-                            <th><abbr title="LastClose">LastClose</abbr></th>
-                            <th><abbr title="Level">Level</abbr></th>
-                            <th><abbr title="CreatedAT">CreatedAT</abbr></th>
-                            <th><abbr title="LastUpdated">LastUpdated</abbr></th>
+                            <th><abbr title="Vintage">Vintage</abbr></th>
+                            <th><abbr title="Name">Name</abbr></th>
+                            <th><abbr title="Producer">Producer</abbr></th>
+                            <th><abbr title="Region">Region</abbr></th>
+                            <th><abbr title="Country">Country</abbr></th>
+                            <th><abbr title="Quantity">Quantity</abbr></th>
                         </tr>
                     </thead>
                     <tbody>

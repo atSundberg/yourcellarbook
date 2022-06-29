@@ -6,8 +6,11 @@
             </div>
             <div class="column">
                 <h1 class="title">
-                    Adams wine
+                    Your Cellar Book
                 </h1>
+                <h3>
+                    Keep track of your wine collection
+                </h3>
             </div>
             <div class="column is-one-fifth">
                 <figure class="image  is-96x64">
@@ -16,7 +19,7 @@
             </div>
         </div>
 
-        <div class="tabs">
+        <div class="tabs is-centered">
             <ul>
                 <li @click="selPage = 'home'" :class="selPage == 'home'    ? 'is-active' : ''"><a>Home</a></li>
                 <li @click="selPage = 'about'" :class="selPage == 'about'   ? 'is-active' : ''"><a>About</a></li>
