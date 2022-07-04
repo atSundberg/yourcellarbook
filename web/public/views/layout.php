@@ -11,7 +11,7 @@
 
   <!--load all Font Awesome styles -->
   <link href="assets/css/all.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="../assets/mybulma/css/mystyles.css">
 <script >
   function MyComp() {
     return {
@@ -52,7 +52,7 @@
 <body x-data="MyComp()" x-init="$watch('selPage', val => fetchInfo()); fetchInfo()">
 <?php echo $header_content; ?>
 <?php echo $body_content; ?>
-<?php echo $footer_content; ?>
+<!-- <?php echo $footer_content; ?> -->
 
 <!-- 
 <p>

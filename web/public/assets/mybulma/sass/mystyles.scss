@@ -1,0 +1,75 @@
+@charset "utf-8";
+@import "../bulma/bulma.sass";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+// Set your brand colors
+$purple: #756E91;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+$champagne: #E8D4C0;
+$scallop-seashell: #E4D7D0;
+$scallop-red: #F0B4A9;
+$teal-green: #4B8378;
+$dark-blue: #1E2640;
+$burnt-orange: #E36920;
+$amber: #EFA710;
+$classic: #E9E9E9;
+$olive-green: #3D550C;
+$green: #4e6d2e;
+$teal-blue: #005C6C;
+$sky-blue: #BEFCFD;
+$blue-green: #7FD1AE;
+$dark-green: #454839;
+$light-blue: #D9F3FF;
+
+
+// Update Bulma's global variables
+// $family-sans-serif: "Nunito", sans-serif;
+$family-sans-serif: "Ubuntu", sans-serif;
+$family-primary: family-sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $pink;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+$success: $champagne;
+
+// Update some of Bulma's component variables
+
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+$input-border-color: $beige-lighter;
+$input-shadow: none;
+
+// Update header variables
+$navbar-background-color: $blue-green;
+
+
+// Update footer variables
+// $footer-background-color: $champagne;
+$footer-padding: 2rem 1rem 3rem;
+
+// Update table variables
+// $table-background-color: $beige-lighter;
+// $table-striped-row-even-background-color: $champagne;
+
+
+
+// Import only what you need from Bulma
+@import "../bulma/sass/utilities/_all.sass";
+@import "../bulma/sass/base/_all.sass";
+@import "../bulma/sass/elements/button.sass";
+@import "../bulma/sass/elements/container.sass";
+@import "../bulma/sass/elements/title.sass";
+@import "../bulma/sass/elements/table.sass";
+@import "../bulma/sass/form/_all.sass";
+@import "../bulma/sass/components/navbar.sass";
+@import "../bulma/sass/layout/footer.sass";
+@import "../bulma/sass/layout/hero.sass";
+@import "../bulma/sass/layout/section.sass";
